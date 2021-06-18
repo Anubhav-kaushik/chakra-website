@@ -1,0 +1,12 @@
+.chakra-layer:hover .chakra {
+    fill: white;
+}
+
+.chakra-layer:hover {
+    cursor: pointer;
+}
+
+.on {
+    fill: white;
+}
+

@@ -1,0 +1,50 @@
+.enlighted-flower {
+    opacity: 0.3;
+}
+
+.petal {
+    fill: none;
+    stroke: #964774;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.petal {
+    fill: none;
+    stroke: #964774;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.petal {
+    fill: none;
+    stroke: #964774;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.human-inside {
+    fill: #731745;
+}
+
+.human-outside {
+    fill: #731745;
+    stroke: #964774;
+    stroke-width: 6;
+    stroke-miterlimit: 10;
+}
+
+.chakra {
+    fill: #F89621;
+}
+
+.overlay {
+    fill: transparent;
+}
+
+#enlighted-human {
+    position: inherit;
+    width: 110%;
+    transform: translateY(-10%);
+    padding: 0;
+}
