@@ -11,22 +11,24 @@
     z-index: 1;
     margin-top: 15px;
     display: none;
+    box-shadow: 10px 5px 5px rgba(34, 34, 34, 0.5);
 }
 
 #chakra-name {
     color: var(--orange);
     padding: 0.5em 0;
-    font-family: 'Museo Slab', sans-serif;
+    font-family: 'Museo Slab 700', sans-serif;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 #chakra-info {
     color: white;
     line-height: 1.2em;
-    font-family: 'Museo Sans Rounded', sans-serif;
+    font-family: 'Museo Sans Rounded 300', sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.5em;
 
 }
 

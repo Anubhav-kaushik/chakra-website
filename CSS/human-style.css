@@ -3,21 +3,21 @@
 }
 
 .petal {
-    fill: none;
+    fill: #731745;
     stroke: #964774;
     stroke-width: 3;
     stroke-miterlimit: 10;
 }
 
 .petal {
-    fill: none;
+    fill: #731745;
     stroke: #964774;
     stroke-width: 3;
     stroke-miterlimit: 10;
 }
 
 .petal {
-    fill: none;
+    fill: #731745;
     stroke: #964774;
     stroke-width: 3;
     stroke-miterlimit: 10;
@@ -44,7 +44,7 @@
 
 #enlighted-human {
     position: inherit;
-    width: 110%;
-    transform: translateY(-10%);
+    width: 100%;
+    
     padding: 0;
 }
