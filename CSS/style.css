@@ -183,7 +183,7 @@ footer {
 
 footer * {
     color: var(--light-pink);
-    font-size: 1rem;
+    font-size: 0.7rem;
     line-height: 1.8em;
     font-family: 'Museo Sans Rounded 300', sans-serif;
     font-weight: 300;
