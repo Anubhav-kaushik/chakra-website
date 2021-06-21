@@ -42,9 +42,14 @@ function addChakra(chakraNum){
     let info = document.getElementsByClassName('chakra-info');
     let container = document.getElementsByClassName('chakra-detail-container')
 
-    for(i=0;i<container.length;i++){
-    container[i].style.display = 'block';
-    }
+    let width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+    console.log(width)
+    if(width > 550){
+        container[1].style.display = 'block';
+    } else{
+        container[0].style.display = 'block';
+    };
 
     for(i=0;i<heading.length;i++){
     heading[i].innerHTML = details['heading'];

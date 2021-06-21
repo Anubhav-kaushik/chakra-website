@@ -4,7 +4,7 @@
   }
 
   .mobile-popup {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -15,7 +15,7 @@
   }
 
   .mobile-popup {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -25,7 +25,7 @@
   }
 
   .mobile-popup {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -35,7 +35,7 @@
   }
 
   .mobile-popup {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -45,7 +45,7 @@
   }
 
   .mobile-popup {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -113,11 +113,12 @@
   }
 
   .pc-popup {
-    display: none !important;
+    display: none;
   }
 
   footer * {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
   }
 
 }
