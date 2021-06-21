@@ -4,7 +4,7 @@
 :root {
     --orange: #F89621;
     --margenta: #731745;
-    --light-pink: #964774;
+    --light-pink: #BA6E98;
 }
 
 * {
@@ -18,8 +18,9 @@ body {
     text-align: center;
     align-items: center;
     width: 90%;
-    max-width: 1024px;
+    max-width: 2200px;
     margin: 0 auto;
+    color: white;
 }
 
 .flower-front-top {
@@ -29,7 +30,14 @@ body {
     stroke-width: 3px;
 }
 
+.top-orange-flower {
+    width: 60%;
+    z-index: -1;
+}
+
 .top-flower {
+    height: calc(0.9*100vw*0.3);
+    overflow: hidden;
     margin-top: 5vh;
 }
 
@@ -76,8 +84,8 @@ p {
 }
 
 .main-heading h1 {
-    font-family: 'Museo Sans Rounded 700';
-    font-weight: 700;
+    font-family: 'Museo Sans Rounded 300';
+    font-weight: 300;
     font-size: 3rem;
     justify-content: center;
     z-index: 2;
@@ -86,17 +94,6 @@ p {
 .logo {
     width: 20%;
     margin: 5vh auto;
-}
-
-.top-orange-flower {
-    width: 60%;
-    z-index: -1;
-}
-
-.top-flower {
-    height: calc(0.9*100vw*0.3);
-    max-height: calc(1024px*0.3);
-    overflow: hidden;
 }
 
 .diamond {
@@ -118,7 +115,7 @@ p {
 .sec3 {
     border-bottom: 2px solid var(--light-pink);
     width: 90%;
-    margin: -5vh auto 10vh auto;
+    margin: -5vh auto 5vh auto;
 }
 
 .ipara>p {
@@ -143,10 +140,11 @@ p {
 }
 
 .indicator>.heading {
-    font-family: 'Museo Sans Rounded 300', sans-serif;
-    font-weight: 300;
+    font-family: 'Museo Sans Rounded 500', sans-serif;
+    font-weight: 500;
     font-size: 1.2rem;
     vertical-align: top;
+    text-transform: uppercase;
 }
 
 .ipara {
@@ -179,7 +177,7 @@ p {
 }
 
 footer {
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     left: 0;
   }
 
@@ -190,6 +188,10 @@ footer * {
     font-family: 'Museo Sans Rounded 300', sans-serif;
     font-weight: 300;
 }
+
+footer a {
+    text-decoration: none;
+  }
 
 .orange-text>strong {
     font-family: 'Museo Sans Rounded 700', sans-serif;

@@ -1,3 +1,53 @@
+@media screen and (min-device-width: 2100px) {
+  html {
+    font-size: 28px;
+  }
+
+  .mobile-popup {
+    display: none;
+  }
+}
+
+@media screen and (min-device-width: 1700px) and (max-device-width: 2100px) {
+  html {
+    font-size: 23px;
+  }
+
+  .mobile-popup {
+    display: none;
+  }
+}
+
+@media screen and (min-device-width: 1550px) and (max-device-width: 1700px) {
+  html {
+    font-size: 20px;
+  }
+
+  .mobile-popup {
+    display: none;
+  }
+}
+
+@media screen and (min-device-width: 1400px) and (max-device-width: 1550px) {
+  html {
+    font-size: 18px;
+  }
+
+  .mobile-popup {
+    display: none;
+  }
+}
+
+@media screen and (min-device-width: 1300px) and (max-device-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+
+  .mobile-popup {
+    display: none;
+  }
+}
+
 @media screen and (min-device-width: 1024px) and (max-device-width: 1350px) {
   html {
     font-size: 14px;
@@ -7,7 +57,6 @@
     display: none;
   }
 }
-
 
 @media screen and (min-device-width: 760px) and (max-device-width: 1024px) {
   html {
@@ -52,6 +101,10 @@
 @media screen and (min-device-width: 50px) and (max-device-width: 550px) {
   html {
     font-size: 12px;
+  }
+
+  .logo {
+    width: 30%;
   }
 
   body {
@@ -109,7 +162,7 @@
 
   .sec3 {
     width: 90%;
-    margin: 1vh auto 3vh auto;
+    margin: 1vh auto 5vh auto;
   }
 
   .pc-popup {
@@ -119,6 +172,10 @@
   footer * {
     font-size: 0.8rem;
     line-height: 1.6rem;
+  }
+
+  footer {
+    margin: auto 5vh 5vh 5vh;
   }
 
 }

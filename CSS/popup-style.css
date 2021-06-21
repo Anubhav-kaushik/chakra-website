@@ -1,6 +1,6 @@
 .chakra-detail-container {
-    width: 45%;
-    max-width: 480px;
+    width: 35%;
+    
     height: auto;
     background-color: #92205F;
     position: absolute;
@@ -30,10 +30,6 @@
     font-size: 1rem;
     line-height: 1.5em;
 
-}
-
-.chakra-info br {
-    margin-bottom: 1em;
 }
 
 .cross-info {
