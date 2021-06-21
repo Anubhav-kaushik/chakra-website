@@ -38,14 +38,18 @@ function addChakra(chakraNum){
     }
 
     let details = chakraInfo[chakraNum];
-    let heading = document.getElementById('chakra-name');
-    let info = document.getElementById('chakra-info');
-    let container = document.getElementById('chakra-detail-container')
+    let heading = document.getElementsByClassName('chakra-name');
+    let info = document.getElementsByClassName('chakra-info');
+    let container = document.getElementsByClassName('chakra-detail-container')
 
-    container.style.display = 'block';
+    for(i=0;i<container.length;i++){
+    container[i].style.display = 'block';
+    }
 
-    heading.innerHTML = details['heading'];
-    info.innerHTML = details['info'];
+    for(i=0;i<heading.length;i++){
+    heading[i].innerHTML = details['heading'];
+    info[i].innerHTML = details['info'];
+    }
 
     let indicator = document.getElementById('indicator-container');
 
@@ -59,7 +63,7 @@ function addChakra(chakraNum){
     }
 }
 
-function closePopup(Id='chakra-detail-container') {
+function closePopup(className='chakra-detail-container') {
     let chakras = document.getElementById('enlighted-human');
     let strokes = chakras.getElementsByClassName('chakra');
 
@@ -67,9 +71,11 @@ function closePopup(Id='chakra-detail-container') {
         strokes[i].classList.remove("on")
     }
 
-    let element = document.getElementById(Id)
+    let element = document.getElementsByClassName(className)
 
-    element.style.display = 'none';
+    for(i=0;i<element.length;i++){
+    element[i].style.display = 'none';
+    }
 
     let indicator = document.getElementById('indicator-container');
 

@@ -34,17 +34,18 @@ body {
 }
 
 .spacer {
-    width: 100%;
-    max-width: 400px;
+    width: 25rem;
     margin: 5px auto;
 }
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .first {
     width: 50%;
+    text-align: center;
 }
 
 .second {
@@ -93,27 +94,17 @@ p {
 }
 
 .top-flower {
-    height: 30vw;
-    max-height: calc(1080px*0.3);
+    height: calc(0.9*100vw*0.3);
+    max-height: calc(1024px*0.3);
     overflow: hidden;
 }
 
 .diamond {
     width: 80%;
-    margin: 2vh auto 5vh auto;
+    margin: 1rem auto 3rem auto;
     height: 2px;
-    color: var(--orange);
 }
 
-.diamond::after {
-    background-color: var(--margenta);
-    content: '\25CA';
-    /* \2666 */
-    padding: 0 10px;
-    position: relative;
-    top: -1.2rem;
-    font-size: 2rem;
-}
 
 .main-para {
     width: 80%;
@@ -127,13 +118,13 @@ p {
 .sec3 {
     border-bottom: 2px solid var(--light-pink);
     width: 90%;
-    margin: -10vh auto 10vh auto;
+    margin: -5vh auto 10vh auto;
 }
 
 .ipara>p {
     text-align: left;
     width: 80%;
-    margin: 10px 0px 10px 80px;
+    margin: 1em 0em 1em 4em;
     font-family: 'Museo Sans Rounded 300', sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
@@ -148,7 +139,7 @@ p {
 
 #la {
     margin: 0 1em 0 0;
-    width: 40px;
+    width: 3rem;
 }
 
 .indicator>.heading {
@@ -170,7 +161,7 @@ p {
 }
 
 .btn-primary {
-    margin: 10px 10px 20px 80px;
+    margin: 1em 0em 1em 4em;
     font-family: 'Museo Sans Rounded 500', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
@@ -183,6 +174,11 @@ p {
 .btn-primary:hover {
     cursor: pointer;
 }
+
+footer {
+    margin-bottom: 10vh;
+    left: 0;
+  }
 
 footer * {
     color: var(--light-pink);

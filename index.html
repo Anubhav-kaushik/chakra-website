@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="CSS/bg-style.css">
     <link rel="stylesheet" href="CSS/responsive.css">
     <script src="JS/popup-action.js"></script>
+    <link rel="shortcut icon" href="SVG/favicon.ico" type="image/x-icon">
     <title>Chakra</title>
 </head>
 
@@ -204,7 +205,20 @@
             </h1>
         </div>
 
-        <hr class="diamond" />
+        <figure class="diamond">
+            <svg viewBox="0 0 1091.27 25.58">
+                <defs>
+                    <style>.line-diamond{fill:none;stroke:#f89621;stroke-miterlimit:10;stroke-width:2.67px;}</style>
+                </defs>
+                <g data-name="Layer 2">
+                    <g id="BG">
+                        <rect class="line-diamond" x="537.79" y="5.08" width="15.42" height="15.42" transform="translate(168.82 -381.98) rotate(45)"/>
+                        <line class="line-diamond" x1="516.16" y1="12.79" y2="12.79"/>
+                        <line class="line-diamond" x1="1091.27" y1="12.79" x2="575.11" y2="12.79"/>
+                    </g>
+                </g>
+            </svg>
+        </figure>
 
         <p class="main-para">
             <span class="orange-text"><strong>The seven chakras</strong> </span>represent powerful focal points of energy in the body.
@@ -215,6 +229,17 @@
 
         <section class="flex sec3">
             <div class="human-bg first">
+                <div class="chakra-detail-container mobile-popup">
+                    <figure class="cross-info" onclick="closePopup()">
+                        <img src="SVG/cross.svg" alt="x">
+                    </figure>
+                    <h2 class="chakra-name">Chakra</h2>
+                    <article class="chakra-info">
+                    </article>
+
+                </div>
+                <p class="first-block-para">Learn how to identify problems with your chakras so you can mindfully unblock them and banish all
+                    that's holding you back.</p>
                 <figure id="enlighted-human">
                     <svg                       viewBox="0 0 730 1623.9" style="enable-background:new 0 0 730 1623.9;" xml:space="preserve"
                         class="human">
@@ -687,16 +712,16 @@
 
             </div>
             <div class="ipara second">
-                <div id="chakra-detail-container">
-                    <figure id="cross-info" onclick="closePopup()">
+                <div class="chakra-detail-container pc-popup">
+                    <figure class="cross-info" onclick="closePopup()">
                         <img src="SVG/cross.svg" alt="x">
                     </figure>
-                    <h2 id="chakra-name">Chakra</h2>
-                    <article id="chakra-info">
+                    <h2 class="chakra-name">Chakra</h2>
+                    <article class="chakra-info">
                     </article>
 
                 </div>
-                <p>Learn how to identify problems with your chakras so you can mindfully unblock them and banish all
+                <p class="second-block-para">Learn how to identify problems with your chakras so you can mindfully unblock them and banish all
                     that's holding you back.</p>
 
                 <div class="indicator" id="indicator-container">
@@ -727,7 +752,7 @@
                 </div>
 
                 <div class="spacer flower-bg">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.39 493.39" class="flower2">
+                    <svg viewBox="0 0 493.39 493.39" class="flower2">
                         <g id="Layer_2" data-name="Layer 2">
                             <g id="BG">
                                 <path class="flower-back-middle"

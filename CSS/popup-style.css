@@ -1,4 +1,4 @@
-#chakra-detail-container {
+.chakra-detail-container {
     width: 45%;
     max-width: 480px;
     height: auto;
@@ -14,7 +14,7 @@
     box-shadow: 10px 5px 5px rgba(34, 34, 34, 0.5);
 }
 
-#chakra-name {
+.chakra-name {
     color: var(--orange);
     padding: 0.5em 0;
     font-family: 'Museo Slab 700', sans-serif;
@@ -22,7 +22,7 @@
     font-size: 1.8rem;
 }
 
-#chakra-info {
+.chakra-info {
     color: white;
     line-height: 1.2em;
     font-family: 'Museo Sans Rounded 300', sans-serif;
@@ -32,11 +32,11 @@
 
 }
 
-#chakra-info br {
+.chakra-info br {
     margin-bottom: 1em;
 }
 
-#cross-info {
+.cross-info {
     position: absolute;
     right: 20px;
     top: 20px;
@@ -44,11 +44,11 @@
     transition: ease-in-out;
 }
 
-#cross-info>img {
+.cross-info>img {
     width: 10px;
 }
 
-#cross-info:hover {
+.cross-info:hover {
     animation: focus 0.1s ease-in-out 1 forwards;
     cursor: pointer;
 }
@@ -69,4 +69,13 @@
     100% {
         transform: scale(1.5) rotateZ(180deg);
     }
+}
+
+.mobile-popup {
+    display: none;
+    position: fixed;
+    top: auto;
+    bottom: 20vh;
+    left: 20%;
+    width: 60%;
 }
