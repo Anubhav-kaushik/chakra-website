@@ -63,4 +63,6 @@
     position: inherit;
     width: 100%;
     margin: auto auto 0 auto;
+    padding: 0 !important;
+    display: flex;
 }
