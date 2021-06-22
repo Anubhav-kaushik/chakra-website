@@ -117,7 +117,7 @@ p {
 }
 
 .sec3 {
-    border-bottom: 3px solid var(--light-pink);
+    border-bottom: 2px solid var(--light-pink);
     width: 90%;
     margin: -5vh auto 5vh auto;
 }
