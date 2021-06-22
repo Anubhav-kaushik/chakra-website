@@ -18,7 +18,17 @@
   }
 }
 
-@media screen and (min-device-width: 760px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 850px) and (max-device-width: 1024px) {
+  html {
+    font-size: 12.5px;
+  }
+
+  .mobile-popup {
+    display: none;
+  }
+}
+
+@media screen and (min-device-width: 760px) and (max-device-width: 850px) {
   html {
     font-size: 11px;
   }
