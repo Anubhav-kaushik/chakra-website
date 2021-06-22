@@ -21,6 +21,7 @@ body {
     max-width: 2200px;
     margin: 0 auto;
     color: white;
+    max-width: 1080px;
 }
 
 .flower-front-top {
@@ -37,6 +38,7 @@ body {
 
 .top-flower {
     height: calc(0.9*100vw*0.3);
+    max-height: calc(0.3*1080px);
     overflow: hidden;
     margin-top: 5vh;
 }
@@ -54,6 +56,8 @@ body {
 .first {
     width: 50%;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .second {
@@ -77,8 +81,8 @@ p {
 
 .main-heading {
     width: 80%;
-    margin: 0 auto;
-    padding: 5px;
+    margin: 1.5vh auto;
+    padding: 10rem auto;
     background-color: var(--margenta);
     z-index: 2;
 }
@@ -86,7 +90,7 @@ p {
 .main-heading h1 {
     font-family: 'Museo Sans Rounded 300';
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 3.5rem;
     justify-content: center;
     z-index: 2;
 }
@@ -113,7 +117,7 @@ p {
 }
 
 .sec3 {
-    border-bottom: 2px solid var(--light-pink);
+    border-bottom: 3px solid var(--light-pink);
     width: 90%;
     margin: -5vh auto 5vh auto;
 }
